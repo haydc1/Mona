@@ -1,0 +1,74 @@
+/* ------------------------------ //
+//   Variables                    //
+// ------------------------------ //
+
+// Color
+
+// Action
+//$action: #5fcac6;
+//$action-dark: #53aca9;
+
+// Detail
+//$detail: #d5d7de;
+
+// State
+//$failure: #e17776;
+//$success: #76a7e1;
+
+// Spacing
+//$space-xxs: 5px;
+//$space-xs: 10px;
+//$space-s: 15px;
+//$space: 20px;
+//$space-l: 25px;
+//$space-xl: 30px;
+//$space-xxl: 40px;
+
+// Text
+//$text: #8f97b7;
+//$text-dark: #71728c;
+//$text-light: #9ea2b5;
+//$text-invert: #ffffff;
+
+*/
+/* ------------------------------ //
+//   Global                       //
+// ------------------------------ */
+
+body {
+  padding: 20px;
+}
+
+/* ------------------------------ //
+//   Form                         //
+// ------------------------------ */
+
+.fieldset + .fieldset,
+form + form,
+.message {
+  margin-top: 20px;
+}
+
+label {
+  color: #000000;
+  display: block;
+  font-size: 87.5%;
+  font-weight: bold;
+}
+
+input,
+textarea,
+select {
+  border: 1px solid #8e8f94;
+  color: #71728c;
+  font-size: 100%;
+  padding: $space-s
+}
+
+button[ type="submit"] {
+  background: #42478d;
+  border: 1px solid #42478d;
+  box-shadow: none;
+  color: #ffffff;
+  font-size: 87.5%;
+}
